@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hammad Khan - WordPress Developer & Web Designer specializing in Elementor Pro, WooCommerce, and Healthcare Marketing">
+    <meta name="keywords" content="WordPress Developer, Elementor Pro, WooCommerce, Web Designer, Frontend Developer">
+    <meta name="author" content="Hammad Khan">
+    <title>Hammad Khan | WordPress Developer & Web Designer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">HK</span>
+                <span class="logo-dot">.</span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Web Projects</a></li>
+                <li><a href="#graphic-design" class="nav-link">Design Work</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge fade-in">
+                <i class="fas fa-code"></i> Available for Freelance
+            </div>
+            <h1 class="fade-in">Hi, I'm <span class="gradient-text">Hammad Khan</span></h1>
+            <p class="title fade-in">WordPress Developer & Web Designer</p>
+            <p class="hero-description fade-in">
+                I create <strong>high-performance websites</strong> using WordPress, Elementor Pro, and modern web technologies. 
+                Specialized in <strong>healthcare marketing</strong> and <strong>e-commerce solutions</strong>.
+            </p>
+            <div class="hero-stats fade-in">
+                <div class="hero-stat">
+                    <span class="stat-number">2+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Projects Delivered</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Client Satisfaction</span>
+                </div>
+            </div>
+            <div class="cta-buttons fade-in">
+                <a href="#graphic-design" class="btn btn-primary">
+                    <i class="fas fa-palette"></i> View Design Work
+                </a>
+                <a href="#projects" class="btn btn-secondary">
+                    <i class="fas fa-laptop-code"></i> Web Projects
+                </a>
+                <a href="Resume.pdf" download class="btn btn-outline">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header">
+            <span class="section-badge fade-in">About Me</span>
+            <h2 class="section-title fade-in">Crafting Digital Experiences</h2>
+            <p class="section-subtitle fade-in">Bridging technical expertise with creative design</p>
+        </div>
+        
+        <div class="about-content fade-in">
+            <div class="about-text">
+                <div class="about-intro">
+                    <h3>👋 Nice to meet you!</h3>
+                    <p>
+                        I'm <strong>Hammad Khan</strong>, a passionate Frontend Developer specializing in 
+                        <strong>WordPress development</strong> and <strong>graphic design</strong>. With expertise in 
+                        <strong>Elementor Pro</strong> and <strong>WooCommerce</strong>, I transform ideas into 
+                        stunning, functional websites.
+                    </p>
+                </div>
+                
+                <div class="about-details">
+                    <div class="detail-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h4>Education</h4>
+                            <p>BS Data Science (5th Semester)</p>
+                            <p class="detail-sub">Emerson University, Multan</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Multan, Punjab, Pakistan</p>
+                            <p class="detail-sub">Remote Work Available</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h4>Specialization</h4>
+                            <p>WordPress & Healthcare Marketing</p>
+                            <p class="detail-sub">Elementor Pro Certified</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-approach">
+                    <h4><i class="fas fa-lightbulb"></i> My Approach</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Fast turnaround - mockups within 24 hours</li>
+                        <li><i class="fas fa-check"></i> Clean, maintainable code that scales</li>
+                        <li><i class="fas fa-check"></i> SEO-optimized and mobile-first design</li>
+                        <li><i class="fas fa-check"></i> Clear communication and realistic timelines</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-icon">⚡</div>
+                    <div class="stat-content">
+                        <h3>24h</h3>
+                        <p class="stat-bold">Fast Turnaround</p>
+                        <p class="stat-desc">Mockups & Prototypes</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">🎯</div>
+                    <div class="stat-content">
+                        <h3>Pro</h3>
+                        <p class="stat-bold">Certified Skills</p>
+                        <p class="stat-desc">Elementor & WooCommerce</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">📱</div>
+                    <div class="stat-content">
+                        <h3>100%</h3>
+                        <p class="stat-bold">Mobile Ready</p>
+                        <p class="stat-desc">Responsive & Optimized</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-header">
+            <span class="section-badge fade-in">Technical Arsenal</span>
+            <h2 class="section-title fade-in">Skills & Expertise</h2>
+            <p class="section-subtitle fade-in">A balanced toolkit for modern web development</p>
+        </div>
+        
+        <div class="skills-grid fade-in">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-wordpress"></i>
+                </div>
+                <h3>WordPress Development</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Elementor Pro</li>
+                    <li><i class="fas fa-check-circle"></i> WooCommerce</li>
+                    <li><i class="fas fa-check-circle"></i> Payment Gateway Integration</li>
+                    <li><i class="fas fa-check-circle"></i> Theme Customization</li>
+                    <li><i class="fas fa-check-circle"></i> Plugin Development</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Frontend Development</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> HTML5 & CSS3</li>
+                    <li><i class="fas fa-check-circle"></i> JavaScript (ES6+)</li>
+                    <li><i class="fas fa-check-circle"></i> Bootstrap & jQuery</li>
+                    <li><i class="fas fa-check-circle"></i> Responsive Design</li>
+                    <li><i class="fas fa-check-circle"></i> Animation & Effects</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h3>Graphic Design</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Canva Pro</li>
+                    <li><i class="fas fa-check-circle"></i> Figma (UI/UX)</li>
+                    <li><i class="fas fa-check-circle"></i> Social Media Graphics</li>
+                    <li><i class="fas fa-check-circle"></i> Healthcare Marketing</li>
+                    <li><i class="fas fa-check-circle"></i> Brand Identity</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>Tools & Technologies</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 88%"></div>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Git & GitHub</li>
+                    <li><i class="fas fa-check-circle"></i> VS Code</li>
+                    <li><i class="fas fa-check-circle"></i> cPanel & Hosting</li>
+                    <li><i class="fas fa-check-circle"></i> Chrome DevTools</li>
+                    <li><i class="fas fa-check-circle"></i> SEO Optimization</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Web Projects Section -->
+    <section id="projects">
+        <div class="section-header">
+            <span class="section-badge fade-in">Portfolio</span>
+            <h2 class="section-title fade-in">Web Development Projects</h2>
+            <p class="section-subtitle fade-in">Custom-coded websites with modern design</p>
+        </div>
+        
+        <div class="projects-grid fade-in">
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="project-overlay">
+                        <a href="https://hammadkhan-hub.github.io/Foodie/" target="_blank" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/HammadKhan-hub/Foodie" target="_blank" class="project-btn btn-secondary-small">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Foodie Restaurant</h3>
+                        <div class="project-category">
+                            <i class="fas fa-utensils"></i> Food & Beverage
+                        </div>
+                    </div>
+                    <p>Modern restaurant website featuring smooth animations, responsive design, and optimized performance for fast loading.</p>
+                    <div class="project-tags">
+                        <span class="tag"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+                    </div>
+                    <div class="project-features">
+                        <span><i class="fas fa-mobile-alt"></i> Mobile First</span>
+                        <span><i class="fas fa-tachometer-alt"></i> Fast Loading</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="project-overlay">
+                        <a href="https://hammadkhan-hub.github.io/Cafe/" target="_blank" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>CAFÉ VINS</h3>
+                        <div class="project-category">
+                            <i class="fas fa-briefcase"></i> Business
+                        </div>
+                    </div>
+                    <p>Professional business website built with Bootstrap framework, featuring clean architecture and responsive design patterns.</p>
+                    <div class="project-tags">
+                        <span class="tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                        <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="tag"><i class="fas fa-mobile-alt"></i> Responsive</span>
+                    </div>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> SEO Optimized</span>
+                        <span><i class="fas fa-bolt"></i> Performance</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="project-overlay">
+                        <a href="http://masoodrehman.site/" target="_blank" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Masood Rehman</h3>
+                        <div class="project-category">
+                            <i class="fas fa-briefcase"></i> Business
+                        </div>
+                    </div>
+                    <p>Professional business website built with Bootstrap framework, featuring clean architecture and responsive design patterns.</p>
+                    <div class="project-tags">
+                        <span class="tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                        <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="tag"><i class="fas fa-mobile-alt"></i> Responsive</span>
+                    </div>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> SEO Optimized</span>
+                        <span><i class="fas fa-bolt"></i> Performance</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="project-overlay">
+                        <a href="https://hammadkhan-hub.github.io/PIZZA/" target="_blank" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/HammadKhan-hub/PIZZA" target="_blank" class="project-btn btn-secondary-small">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>PIZZA Ordering Platform</h3>
+                        <div class="project-category">
+                            <i class="fas fa-pizza-slice"></i> E-commerce
+                        </div>
+                    </div>
+                    <p>Interactive ordering platform with dynamic menu display, custom UI components, and smooth user interactions.</p>
+                    <div class="project-tags">
+                        <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="tag"><i class="fas fa-shopping-cart"></i> E-commerce</span>
+                        <span class="tag"><i class="fas fa-paint-brush"></i> UI Design</span>
+                    </div>
+                    <div class="project-features">
+                        <span><i class="fas fa-mouse-pointer"></i> Interactive</span>
+                        <span><i class="fas fa-sync"></i> Dynamic</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="project-overlay">
+                        <a href="https://hammadkhan-hub.github.io/Food-In/" target="_blank" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/HammadKhan-hub/Food-In" target="_blank" class="project-btn btn-secondary-small">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Food-In Delivery</h3>
+                        <div class="project-category">
+                            <i class="fas fa-shipping-fast"></i> Food Delivery
+                        </div>
+                    </div>
+                    <p>Mobile-first food delivery interface focused on exceptional UX, fast loading speeds, and intuitive navigation.</p>
+                    <div class="project-tags">
+                        <span class="tag"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="tag"><i class="fas fa-mobile-alt"></i> Mobile-First</span>
+                    </div>
+                    <div class="project-features">
+                        <span><i class="fas fa-rocket"></i> Fast</span>
+                        <span><i class="fas fa-heart"></i> UX Focused</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Graphic Design Section -->
+    <section id="graphic-design" class="graphic-design-section">
+        <div class="section-header">
+            <span class="section-badge fade-in">Design Portfolio</span>
+            <h2 class="section-title fade-in">Graphic Design Work</h2>
+            <p class="section-subtitle fade-in">Healthcare marketing & digital advertising campaigns</p>
+        </div>
+
+        <div class="design-showcase fade-in">
+            <div class="showcase-intro">
+                <div class="showcase-badge">
+                    <i class="fas fa-award"></i> Featured Project
+                </div>
+                <h3>MediCare Medical Centre - Digital Marketing Campaign</h3>
+                <p>Comprehensive marketing suite for Australian medical practice focusing on patient acquisition and brand consistency across digital platforms.</p>
+                <div class="showcase-meta">
+                    <span><i class="fas fa-briefcase"></i> Healthcare Industry</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Sydney, Australia</span>
+                    <span><i class="fas fa-tools"></i> Canva, Figma</span>
+                </div>
+            </div>
+
+            <div class="design-grid">
+                <div class="design-item" onclick="openModal('img1')">
+                    <div class="design-image">
+                        <img src="Elegant Medical Checkup Package Poster.png" alt="Medical Center Services">
+                        <div class="design-overlay">
+                            <div class="overlay-content">
+                                <i class="fas fa-search-plus"></i>
+                                <p>Click to View Full Size</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="design-info">
+                        <h4><i class="fas fa-hospital"></i> Medical Services Overview</h4>
+                        <p>Multi-service promotion highlighting comprehensive clinic capabilities with clear call-to-action.</p>
+                        <div class="design-meta">
+                            <span><i class="fas fa-image"></i> 1080x1350px</span>
+                            <span><i class="fab fa-facebook"></i> Social Media</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="design-item" onclick="openModal('img2')">
+                    <div class="design-image">
+                        <img src="Blue and White Modern Medical Center Poster.png" alt="Health Checkup Promotion">
+                        <div class="design-overlay">
+                            <div class="overlay-content">
+                                <i class="fas fa-search-plus"></i>
+                                <p>Click to View Full Size</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="design-info">
+                        <h4><i class="fas fa-heartbeat"></i> Health Checkup Campaign</h4>
+                        <p>Promotional offer featuring 20% discount with conversion-optimized design and trust-building elements.</p>
+                        <div class="design-meta">
+                            <span><i class="fas fa-image"></i> 1080x1080px</span>
+                            <span><i class="fab fa-instagram"></i> Instagram</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="design-item" onclick="openModal('img3')">
+                    <div class="design-image">
+                        <img src="Facebook Post - Complete Health.png" alt="Health Package Alternative">
+                        <div class="design-overlay">
+                            <div class="overlay-content">
+                                <i class="fas fa-search-plus"></i>
+                                <p>Click to View Full Size</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="design-info">
+                        <h4><i class="fas fa-user-md"></i> Package Promotion - Variation B</h4>
+                        <p>A/B test design demonstrating campaign versatility with enhanced feature showcase.</p>
+                        <div class="design-meta">
+                            <span><i class="fas fa-image"></i> 1080x1350px</span>
+                            <span><i class="fas fa-bullseye"></i> Multi-platform</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="campaign-details">
+                <div class="details-header">
+                    <h4><i class="fas fa-chart-line"></i> Campaign Overview</h4>
+                </div>
+                <div class="details-grid">
+                    <div class="detail-card">
+                        <i class="fas fa-bullseye"></i>
+                        <h5>Objective</h5>
+                        <p>Patient acquisition & appointment bookings</p>
+                    </div>
+                    <div class="detail-card">
+                        <i class="fas fa-palette"></i>
+                        <h5>Design Approach</h5>
+                        <p>Professional medical aesthetic with trust-building</p>
+                    </div>
+                    <div class="detail-card">
+                        <i class="fas fa-check-circle"></i>
+                        <h5>Compliance</h5>
+                        <p>AHPRA healthcare advertising standards</p>
+                    </div>
+                    <div class="detail-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h5>Platforms</h5>
+                        <p>Facebook, Instagram, Google Display</p>
+                    </div>
+                </div>
+
+                <div class="key-features-box">
+                    <h5><i class="fas fa-star"></i> Key Features & Highlights</h5>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Consistent brand identity across all campaign materials</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Professional medical color palette (teal, blue, white)</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Clear calls-to-action with conversion-focused messaging</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Trust-building imagery with professional healthcare providers</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Mobile-optimized designs for social media platforms</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Compliant with Australian healthcare advertising regulations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Full Image View -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">
+            <i class="fas fa-times"></i>
+        </span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-header">
+            <span class="section-badge fade-in">Let's Connect</span>
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <p class="section-subtitle fade-in">Available for freelance projects and collaborations</p>
+        </div>
+        
+        <div class="contact-container fade-in">
+            <div class="contact-info">
+                <div class="info-card">
+                    <h3>Let's Build Something Amazing</h3>
+                    <p>I'm always interested in hearing about new projects and opportunities. Whether you need a WordPress website, graphic design work, or technical consultation, I'd love to hear from you.</p>
+                    
+                    <div class="quick-info">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Response Time</strong>
+                                <span>Within 24 hours</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <strong>Availability</strong>
+                                <span>Remote & Freelance</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <span>Multan, Pakistan (PKT)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-grid">
+                <a href="mailto:hk5718721@gmail.com" class="contact-card-link">
+                    <div class="contact-card">
+                        <div class="contact-icon email">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>hk5718721@gmail.com</p>
+                        <span class="contact-badge">Preferred</span>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/+923104301976" target="_blank" class="contact-card-link">
+                    <div class="contact-card">
+                        <div class="contact-icon whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                        <p>+92 310 4301976</p>
+                        <span class="contact-badge">Fast Response</span>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/hammad-khan-9062792b7/" target="_blank" class="contact-card-link">
+                    <div class="contact-card">
+                        <div class="contact-icon linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect Professionally</p>
+                        <span class="contact-badge">Network</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/HammadKhan-hub" target="_blank" class="contact-card-link">
+                    <div class="contact-card">
+                        <div class="contact-icon github">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>View Code & Projects</p>
+                        <span class="contact-badge">Portfolio</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-text">HK</span>
+                        <span class="logo-dot">.</span>
+                    </div>
+                    <p>WordPress Developer & Web Designer</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/HammadKhan-hub" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/hammad-khan-9062792b7/" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://wa.me/+923104301976" target="_blank" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="mailto:hk5718721@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Navigation</h4>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Services</h4>
+                        <a href="#graphic-design">Graphic Design</a>
+                        <a href="#projects">Web Development</a>
+                        <a href="#contact">WordPress Solutions</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hammad Khan. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> in Multan, Pakistan</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top" onclick="scrollToTop()">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
